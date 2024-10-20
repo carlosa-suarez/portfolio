@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", arial, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Varela Round", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: #ffffffc9;
+}
+
+header nav ul {
+    list-style: none;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    flex-direction: column;
+    position: fixed;
+    background: #b20f0fd4;
+    height: 309px;
+    border-radius: 5px;
+    width: 0;
+    transition: all 200ms, opacity 400ms;
+}
+
+header nav ul a {
+ font-size: 0;
+}
+
+header nav.clicked ul {
+    display: flex;
+    width: 180px;
+}
+
+header nav .mobile-menu {
+    font-size: 60px;
+}
+
+header nav.clicked ul a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 7px;
+    border-radius: 20px;
+    width: 100%;
+    display: block;
+    font-size: 1.5rem;
+}
+
+header nav ul li a:hover, 
+header nav ul li a:focus,
+header nav ul li a:active {
+    box-shadow: #999 0px 2px 11px;
+}
+
+header #casm-logo {
+    width: 65%;
+    float: right;
+}
+
+body {
+    background: #c2d2d7;
+}
+
+.container {
+    margin-top: 60px;
+}
+
+.container section {
+    padding: 0 0 1rem;
+}
+
+.container section h2 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    background: #204c665e;
+    padding: 5px;
+}
+
+.summary, .services {
+    background: #fff;
+}
+
+.hero {
+    width: 100%;
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 78%;
+    background: #663a20a3;
+    color: #eee;
+    padding: 2%;
+    border-radius: 7px;
+    font-size: 3rem;
+}
+
+.profile-picture {
+    width: 100%;
+}
+
+.summary p{
+    margin: 10px;
+    text-align: justify;
+}
+
+
+.services {
+    /*padding: 10px;*/
+}
+
+.services ul {
+    list-style: none;
+    padding-left: 21px;
+    display: flex;
+    flex-direction: column;
+}
+
+.services li {
+    margin: 3% 0;
+}
+
+.services .service h4 {
+    display: inline;
+}
+
+.services .service ul {
+    font-size: 0;
+    height: 0;
+    min-height: 0;
+    transition: all 200ms;
+}
+
+.services .service ul span {
+    font-size: 0;
+}
+
+.services .service.clicked ul {
+    font-size: 1 rem;
+    min-height: 10px;
+    height: auto;
+    
+}
+
+.services .service.clicked ul span {
+    font-size: 1rem;
+}
+
+#experience ul {
+    list-style: none;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #999;
+    margin: 1rem;
+    padding: 5%;
+    background: #fff;
+    text-align: center;
+}
+
+#experience ul img {
+    width: 100%;
+}
+
+#education li {
+    
+}
+#education img {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #000000bf;
+    color: white;
+    padding: 10px;
+}
+
+footer .links ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer .links ul a {
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+}
+
+
+
+@media screen and (min-width: 600px) {
+    header nav ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 25px;
+        
+    }
+}
