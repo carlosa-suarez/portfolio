@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carlos Suarez portfolio - casm">
+    <meta name="keywords" content="full-stack, frontend, developer, backend, c#, angular"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Carlos' portfolio</title>
+</head>
+<body id="who-i-am" class="who-i-am">
+    <header>
+        <img id="casm-logo" src="images/casm-logo-small.svg" alt="casm logo">
+        <nav id="main-nav" class="nav">
+            <span class="material-symbols-outlined mobile-menu">menu</span>
+            <ul>
+                <li><a href="index.html#summary">Home</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#education">Education</a></li>
+                <li><a href="case-study.html">Case Study</a></li>
+                <li><a href="who-i-am.html">Who I am</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <main>
+            <section id="#hero" class="hero">
+            </section>
+            <section id="case-study" class="case-study">
+                <h1>Case Study</h1>
+                <p>Situation 
+During the COVID, the client archived the web project my team worked in for years as a frontend team leader. There were massive layoffs and only a couple of the team including me were transferred to the main application team.
+
+Task
+The task or challenge was to become a proficient backend developer in C# in time record, since according to my skills it should not be (apparently) too hard.
+
+Action
+As soon I was assigned with this task, I requested help from the base company to have a mentor in this technology, who I can create an schedule, milestones and a deadline with. 
+
+Many colleagues tried to support me with tons of documentation, but I knew the metacognition leaning roadmap starts from teasing our brains with the practical (creating the challenge by doing), and understanding the principles by teaching.
+
+The exchange experience with this very professional mentor, enabled the heuristics by:
+- finding similarities in backend and frontend languages
+- enriching my background on design and architecture patterns
+- refining the methods employed to breakdown a task understanding the client need (time vs quality)
+- enhancing the argumenting skills at explaining the duration of a task
+
+Result
+Although the initial estimate was overlapped by a couple of weeks, the resulting skill set obtained was long-lasting, not only by reducing the dependency in other peers to finish the features, but also, bringing value by adding more unit testing coverage,   lambda function, and other approaches to the current technology base, in order to simplify our code (increase readability and reduce maintenance) and reduce the technical debt.
+                </p>
+            </section>                    
+        </main>
+    </div>
+    
+    <footer>
+        <section class="links">
+            <h2>Contact me</h2>
+            <ul>
+                <li>
+                    <a href="mailto:csuarezm.ca@gmail.com">
+                        <span class="material-symbols-outlined">email</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://linkedin.com/carlossuarez">
+                        <span class="linkedIn">in</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <span>Copyright &copy; 2024</span>
+    </footer>
+</body>
+<script type="importmap">
+    {
+      "imports": {
+        "@material/web/": "https://esm.run/@material/web/"
+      }
+    }
+  </script>
+  <script type="module">
+    import '@material/web/all.js';
+    import {styles as typescaleStyles} from '@material/web/typography/md-typescale-styles.js';
+
+    document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+  </script>
+  <script src="script.js"></script>
+</html>

@@ -12,25 +12,25 @@
     <link rel="stylesheet" href="style.css">
     <title>Carlos' portfolio</title>
 </head>
-<body>
+<body id="casm-portfolio" class="casm-portfolio">
     <header>
-        <img id="casm-logo" src="images/casm-logo-inline.svg" alt="casm logo">
+        <img id="casm-logo" src="images/casm-logo-small.svg" alt="casm logo">
         <nav id="main-nav" class="nav">
             <span class="material-symbols-outlined mobile-menu">menu</span>
             <ul>
-                <li><a href="#summary">Home</a></li>
-                <li><a href="#servicmes">Services</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#others">Other fields</a></li>
-                <li><a href="#contact">Contact me</a></li>
+                <li><a href="index.html#summary">Home</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#education">Education</a></li>
+                <li><a href="case-study.html">Case Study</a></li>
+                <li><a href="who-i-am.html">Who I am</a></li>
             </ul>
         </nav>
     </header>
     <div class="container">
         <main>
             <section id="#hero" class="hero">
-                <h1>If you can imagine it, I can do it</h1>
+                <h1>If you can imagine it,<br>I can do it</h1>
                 <img class="profile-picture" src="images/profile-Carlos-Suarez.jpg" alt="profile carlos suarez">
             </section>
 
@@ -38,88 +38,124 @@
                 <h2>Summary</h2>
                 <p>With the experience gained as software engineer from 2008, I can help you to build your website or application faster with the highest standards and best practices</p>
                 <p>The process is the key, so providing you with the best code coverage, version control tools and early prototypes ensures we point to the desired direction</p>
-                <p>I'm currently broaden my skills and experience in A.I.,media production, product management and UX/UI design</p>
+                <p>I'm currently broaden my skills and experience in A.I., automation, GIS, media production, product management and UX/UI design</p>
             </section>
 
             <section id="services" class="services">
                 <h2>Services</h2>
                 <ul>
                     <li class="service">
-                        <span class="material-symbols-outlined">desktop_windows</span>
-                        <h4>Web responsive applications</h4>
-                        <ul>
-                            <li>
-                                <span>Angular, Backbone and NodeJS Apps</span>
-                            </li>
-                            <li>
-                                <span>Typescript or Javascript Apps</span>
-                            </li>
-                            <li>
-                                <span>Material UI, Bootstrap, Flex, Grid</span>
-                            </li>
-                            <li>
-                                <span>e-commerce, ERP and CMR</span>
-                            </li>
-                            <li>
-                                <span>Integration modules and features</span>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="service">
                         <span class="material-symbols-outlined">
-                            lan
-                        </span>
-                        <h4>Distributed services</h4>
-                        <ul>
-                            <li><span>Restful APIs</span></li>
-                            <li><span>SOAP</span></li>
-                        </ul>
-                    </li>
-                    <li class="service">
-                        <span class="material-symbols-outlined">
-                            terminal
+                            psychology
                             </span>
-                        <h4>Centraliced, monolit and embeeded applications</h4>
+                        <h4>Smart Home, A.I and Automation</h4>
                         <ul>
-                            <li><span>PHP</span></li>
-                            <li><span>Python</span></li>
+                            <li>
+                                <span class="material-symbols-outlined">smart_toy</span>
+                                <span>Python A.I.</span>
+                            </li>
+                            <li>
+                                <span class="material-symbols-outlined">auto_mode</span>
+                                <span>Web scrappers, filesystem automation</span>
+                            </li>
+                            <li>
+                                <span class="material-symbols-outlined">wb_incandescent</span>
+                                <span>Google Assistant Applications</span>
+                            </li>
+                            <li>
+                                <span class="material-symbols-outlined">auto_awesome</span>
+                                <span>Gemini and Alexa Integrations</span>
+                            </li>
+                            <li>
+                                <span class="material-symbols-outlined">home</span>
+                                <span>Smart home</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="service">
+                        <span class="material-symbols-outlined">desktop_windows</span>
+                        <h4>Web Responsive Applications</h4>
+                        <ul>
+                            <li>
+                                <img src="images/angular-16.svg" alt="angular logo">
+                                <span>Angular, Google Material, Auth 2.0, RxJS</span>
+                            </li>
+                            <li>
+                                <img src="images/react-16-svgrepo-com.svg" alt="react logo">
+                                <span>ReactJS, Vite, Bootstrap</span>
+                            </li>
+                            <li>
+                                <img src="images/nodejs02-svgrepo-com.svg" alt="nodejs logo">
+                                <span>NodeJS, Flexbox, Typescript, html5, css3</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="service">
+                        <span class="material-symbols-outlined">terminal</span>
+                        <h4>Web Services Restful Apps</h4>
+                        <ul>
+                            <li>
+                                <img src="images/python-16-svgrepo-com.svg" alt="python logo">
+                                <span>Python (2 & 3), Redis, Chroma</span>
+                            </li>
+                            <li>
+                                <img src="images/dotnet-svgrepo-com.svg" alt="dotnet logo">
+                                <span>C# (core 3.1 & framework 5), MSSQL, CosmosDB</span>
+                            </li>
+                            <li>
+                                <img src="images/java-16-svgrepo-com.svg" alt="java logo">
+                                <span>Java (7 & 8), Oracle, PostgreSQL</span>
+                            </li>
+                            <li>
+                                <img src="images/php-16-svgrepo-com.svg" alt="php logo">
+                                <span>PHP 5, MySQL, SQLite</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="service">
+                        <span class="material-symbols-outlined">browser_updated</span>
+                        <h4>Desktop Apps</h4>
+                        <ul>
+                            <li>
+                                <span class="material-symbols-outlined">extension</span>
+                                <span>Tkinter (Python)</span>
+                            </li>
+                            <li>
+                                <span class="material-symbols-outlined">view_list</span>
+                                <span>WPF apps (DotNet)</span>
+                            </li>
+                            <li>
+                                <span class="material-symbols-outlined">design_services</span>
+                                <span>Servlets (Java)</span>
+                            </li>
                         </ul>
                     </li>
                     <li class="service">
                         <span class="material-symbols-outlined">
                             dashboard_customize
                             </span>
-                        <h4>CMS</h4>
+                        <h4>CMS & Full Stack</h4>
                         <ul>
-                            <li><span>Adobe Experience Manager A.E.M.</span></li>
-                            <li><span>Drupal</span></li>
-                            <li><span>TeamSite</span></li>
-                            <li><span>WordPress</span></li>
-                            <li><span>Webflow</span></li>
-                        </ul>
-                    </li>
-                    <li class="service">
-                        <span class="material-symbols-outlined">
-                            cloud
-                            </span>
-                        <h4>Cloud integrations</h4>
-                        <ul>
-                            <li><span>Google APIs</span></li>
-                            <li><span>AWS APIs</span></li>
-
-                        </ul>
-                    </li>
-                    <li class="service">
-                        <span class="material-symbols-outlined">
-                            psychology
-                            </span>
-                        <h4>Smart Home, Generative A.I and NPL Services</h4>
-                        <ul>
-                            <li><span>Python A.I.</span></li>
-                            <li><span>Google Assistant Applications</span></li>
-                            <li><span>Gemini Integrations</span></li>
-                            <li><span>Alexa Applications</span></li>
-                            <li><span>Smart home integrations</span></li>
+                            <li>
+                                <img src="images/adobe-svgrepo-com.svg" alt="adobe logo">
+                                <span>Adobe Experience Manager A.E.M.</span>
+                            </li>
+                            <li>
+                                <img src="images/drupal-svgrepo-com.svg" alt="drupal logo">
+                                <span>Drupal</span>
+                            </li>
+                            <li>
+                                <span class="material-symbols-outlined">gesture</span>
+                                <span>TeamSite</span>
+                            </li>
+                            <li>
+                                <img src="images/wordpress-svgrepo-com.svg" alt="wordpress logo">
+                                <span>WordPress</span>
+                            </li>
+                            <li>
+                                <img src="images/webflow-svgrepo-com.svg" alt="webflow logo">
+                                <span>Webflow</span>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -128,6 +164,10 @@
             <section id="experience">
                 <h2>Experience</h2>
                 <ul>
+                    <li class="card">
+                        <img src="images/global-raymac-surveys.webp" alt="Global Raymac Surveys logo">
+                        <span>Canada - Dec 2024 - Present</span>    
+                    </li>
                     <li class="card">
                         <img src="images/baires-logo.jpg" alt="BairesDev Logo">
                         <span>NY/US Oct 2018 - Oct 2024</span>
@@ -172,8 +212,6 @@
                         <img src="images/rolsoft-logo.jpg" alt="Rolsoft Logo">
                         <span>Bogota/Colombia Nov 2008 - Jun 2009</span>
                     </li>
-
-                    
                 </ul>
             </section>
             <section id="education">
@@ -193,6 +231,7 @@
             </section>
         </main>
     </div>
+    
     <footer>
         <section class="links">
             <h2>Contact me</h2>

@@ -29,8 +29,8 @@ header nav ul {
     margin-bottom: 25px;
     flex-direction: column;
     position: fixed;
-    background: #b20f0fd4;
-    height: 309px;
+    background: #02525bbd;
+    height: 330px;
     border-radius: 5px;
     width: 0;
     transition: all 200ms, opacity 400ms;
@@ -67,9 +67,10 @@ header nav ul li a:active {
     box-shadow: #999 0px 2px 11px;
 }
 
-header #casm-logo {
-    width: 65%;
+header #casm-logo{
+    width: 16%;
     float: right;
+    margin-right: 5px;
 }
 
 body {
@@ -87,11 +88,11 @@ body {
 .container section h2 {
     font-size: 25px;
     margin-bottom: 5px;
-    background: #204c665e;
+    background: #005a7778;
     padding: 5px;
 }
 
-.summary, .services {
+.summary, .services, .case-study {
     background: #fff;
 }
 
@@ -105,7 +106,7 @@ body {
     bottom: 10px;
     left: 10px;
     width: 78%;
-    background: #663a20a3;
+    background: #0654676e;
     color: #eee;
     padding: 2%;
     border-radius: 7px;
@@ -141,6 +142,18 @@ body {
     display: inline;
 }
 
+.services .service h4::after {
+    display: inline-block;
+    content: "\e145";
+    font-family: 'Material Symbols Outlined';
+    font-size: 1em;
+    margin-left: 5px;
+}
+
+.services .service.clicked h4::after {
+    content: "\e15b";
+}
+
 .services .service ul {
     font-size: 0;
     height: 0;
@@ -163,9 +176,20 @@ body {
     font-size: 1rem;
 }
 
-#experience ul {
+.services .service li img {
+    display: inline-block;
+    width: 0;
+}
+
+.services .service.clicked li img {
+    width: 1em;
+}
+
+#experience ul, #education ul {
     list-style: none;
     text-align: center;
+    display: flex;
+    overflow: scroll;
 }
 
 .card {
@@ -174,6 +198,8 @@ body {
     padding: 5%;
     background: #fff;
     text-align: center;
+    vertical-align: baseline;
+    min-width: 180px;
 }
 
 #experience ul img {
