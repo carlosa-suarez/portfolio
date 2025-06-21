@@ -75,6 +75,7 @@ header #casm-logo{
 
 body {
     background: #c2d2d7;
+    width: 100%;
 }
 
 .container {
@@ -213,6 +214,39 @@ body {
     width: 100%;
 }
 
+.who-i-am .hero h1 {
+    bottom: 10%;
+}
+
+.who-i-am section {
+    background-color: #fff;
+}
+
+.case-study section img,
+.who-i-am section img {
+    width: 100%;
+}
+
+.who-i-am section p {
+    margin: 10px;
+}
+
+.case-study section > p {
+    margin: 10px;
+}
+
+.case-study section ul {
+    list-style-type: disc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+footer section.links {
+    background-color: transparent;
+}
+
 footer {
     display: flex;
     justify-content: space-around;
@@ -244,5 +278,9 @@ footer .links ul a {
         justify-content: space-around;
         margin-bottom: 25px;
         
+    }
+
+    .who-i-am section:nth-child(2n) img {
+        float: right;
     }
 }
