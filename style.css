@@ -168,6 +168,7 @@ body {
 
 .services .service ul span {
     font-size: 0;
+    margin-right: 5px;
 }
 
 .services .service.clicked ul {
@@ -322,10 +323,20 @@ footer .links ul a {
         background: linear-gradient(75deg, rgb(118 29 18) 8% 22%, rgba(0, 0, 0, 1) 81% 82%)
     }
 
-    /* .hero h1 {
-        bottom: 25px;
-        width: 45%;
-    } */
+    .services ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .services li {
+        flex-basis: 48%;
+    }
+
+    .services .service.clicked li img {
+        width: 24px;
+        margin-right: 5px;
+    }
 
     .hero h1 {
         bottom: inherit;
