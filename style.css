@@ -90,7 +90,6 @@ body {
 
 .container section h2 {
     font-size: 1.1em;
-    margin-bottom: 5px;
     background: #005a7778;
     padding: 5px;
 }
@@ -99,9 +98,12 @@ body {
     background: #fff;
 }
 
-.hero {
+.container section.hero {
+    background: #c2d2d7;
     width: 100%;
     position: relative;
+    padding: 0;
+    margin: 0;
 }
 
 .hero h1 {
@@ -219,6 +221,7 @@ body {
 
 .who-i-am .hero h1 {
     bottom: 10%;
+    background: #5b698378
 }
 
 .who-i-am section {
@@ -240,10 +243,8 @@ body {
 
 .case-study section ul {
     list-style-type: disc;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 30px;
-    margin-right: 10px;
+    margin: 1%;
+    padding-left: 5%;
 }
 
 footer section.links {
@@ -301,20 +302,49 @@ footer .links ul a {
         /* font-size: 1.2em; */
     }
 
-    .hero h1 {
-        bottom: 25px;
-        width: 45%;
+    section.hero {
+        padding: 0;
     }
 
-    .casm-portfolio .hero h1 {
+
+    .casm-portfolio section.hero {
+        background: #FFF;
+        background: linear-gradient(181deg, rgba(255, 255, 255, 1) 22%, rgb(45 45 45) 99%);
+    }
+
+    .case-study section.hero {
+        background: #bf555d;
+        background: linear-gradient(75deg, rgb(206 110 123) 13% 58%, rgba(0, 0, 0, 1) 128% 99%);
+    }
+
+    .who-i-am section.hero {
+        background: #571f12;
+        background: linear-gradient(75deg, rgb(118 29 18) 8% 22%, rgba(0, 0, 0, 1) 81% 82%)
+    }
+
+    /* .hero h1 {
         bottom: 25px;
         width: 45%;
+    } */
+
+    .hero h1 {
+        bottom: inherit;
+        width: auto;
+        right: 3%;
+        left: inherit;
+        top: 10%;
+    }
+
+    .who-i-am .hero h1 {
+        bottom: inherit;
     }
 
     body .container .hero img {
-        width: 100%;
+        width: 60%;
         margin: 0;
+        padding: 0;
         float: none;
+
     }
 
     main {
@@ -322,19 +352,27 @@ footer .links ul a {
     }
 
     .card {
-        width: 30%;
-        min-width: 350px;
+        width: 25%;
+        min-width: 292px;
     }
 
+    section {
+        margin: 0 0 4%;
+    }
+    
     .case-study section img, 
     .who-i-am section img {
         width: 40%;
         float: left;
         margin: 2%;
+        padding-right: 2%;
+        padding-left: 0;
     }
 
     .case-study section:nth-child(2n) img, 
     .who-i-am section:nth-child(2n) img {
         float: right;
+        padding-right: 0;
+        padding-left: 2%;
     }
 }
