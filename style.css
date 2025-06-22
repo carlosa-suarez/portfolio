@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5 {
 
 ul {
     list-style: none;
+    font-size: 1em;
 }
 
 header {
@@ -47,6 +48,7 @@ header nav.clicked ul {
 
 header nav .mobile-menu {
     font-size: 60px;
+    cursor: pointer;
 }
 
 header nav.clicked ul a {
@@ -87,13 +89,13 @@ body {
 }
 
 .container section h2 {
-    font-size: 25px;
+    font-size: 1.1em;
     margin-bottom: 5px;
     background: #005a7778;
     padding: 5px;
 }
 
-.summary, .services, .case-study {
+.summary, .services, .case-study section {
     background: #fff;
 }
 
@@ -118,8 +120,8 @@ body {
     width: 100%;
 }
 
-.summary p{
-    margin: 10px;
+.summary p {
+    margin: 3%;
     text-align: justify;
 }
 
@@ -199,8 +201,9 @@ body {
     padding: 5%;
     background: #fff;
     text-align: center;
-    vertical-align: baseline;
+    vertical-align: bottom;
     min-width: 180px;
+    width: 40%;
 }
 
 #experience ul img {
@@ -270,7 +273,11 @@ footer .links ul a {
 
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 481px) {
+    * {
+        font-size: 1.1em;
+    }
+
     header nav ul {
         list-style: none;
         display: flex;
@@ -280,6 +287,53 @@ footer .links ul a {
         
     }
 
+    .card {
+        min-width: 275px;
+    }
+
+    .who-i-am section:nth-child(2n) img {
+        float: right;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    * {
+        /* font-size: 1.2em; */
+    }
+
+    .hero h1 {
+        bottom: 25px;
+        width: 45%;
+    }
+
+    .casm-portfolio .hero h1 {
+        bottom: 25px;
+        width: 45%;
+    }
+
+    body .container .hero img {
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
+
+    main {
+        margin: 0 12%;
+    }
+
+    .card {
+        width: 30%;
+        min-width: 350px;
+    }
+
+    .case-study section img, 
+    .who-i-am section img {
+        width: 40%;
+        float: left;
+        margin: 2%;
+    }
+
+    .case-study section:nth-child(2n) img, 
     .who-i-am section:nth-child(2n) img {
         float: right;
     }
