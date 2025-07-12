@@ -159,27 +159,45 @@ body {
     content: "\e15b";
 }
 
-.services .service ul {
-    font-size: 0;
-    height: 0;
+.services .service .service-description {
+    font-size: 14px;
+    height: auto;
     min-height: 0;
     transition: all 200ms;
 }
 
-.services .service ul span {
+.services .service ul {
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    transition: all 200ms;
+}
+
+.services .service .service-description p {
+    margin: 1em 0;
+    padding: 0;
+}
+
+.services .service .service-description span {
     font-size: 0;
     margin-right: 5px;
 }
 
-.services .service.clicked ul {
-    font-size: 1 rem;
+.services .service.clicked .service-description {
+    font-size: 16px;
     min-height: 10px;
-    height: auto;
-    
+    height: auto; 
 }
 
-.services .service.clicked ul span {
+.services .service.clicked .service-description span {
     font-size: 1rem;
+    line-height: 1.5;
+}
+
+.services .service.clicked ul {
+    font-size: 14px;
+    line-height: auto;
+    height: auto;
 }
 
 .services .service li img {
