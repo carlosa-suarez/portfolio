@@ -94,7 +94,7 @@ body {
     padding: 5px;
 }
 
-.summary, .services, .case-study section {
+.summary, .services, .projects, .case-study section {
     background: #fff;
 }
 
@@ -211,6 +211,17 @@ body {
     width: 1em;
 }
 
+.projects a {
+    font-size: 1em;
+    color: #000;
+    font-weight: bold;
+}
+
+.projects p {
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
 #experience ul, #education ul {
     list-style: none;
     text-align: center;
@@ -236,6 +247,7 @@ body {
 #education li {
     
 }
+
 #education img {
     width: 100%;
 }
