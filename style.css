@@ -215,6 +215,17 @@ body {
     font-size: 1em;
     color: #000;
     font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.projects a:hover {
+    color: #082147;
+    text-decoration: underline;
+}
+
+.porjects h4 {
+    margin-bottom: 5%;
 }
 
 .projects p {
