@@ -229,7 +229,7 @@ body {
 }
 
 .projects p {
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 100;
 }
 
@@ -397,6 +397,10 @@ footer .links ul a {
     .services .service.service.clicked .service-description  ul { 
         opacity: 1;
         max-height: 100px;
+    }
+
+    .projects p {
+        font-size: 0.5em;
     }
 
     .hero h1 {
