@@ -314,3 +314,25 @@ footer h2 {
     .card span { margin-left: 0; }
     footer { flex-direction: column; gap: 2rem; text-align: center; }
 }
+
+/* ==========================================================================
+   7. JEKYLL MARKDOWN LIST ALIGNMENT PATCH
+   ========================================================================== */
+main ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1rem;
+}
+
+main li {
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-left: 0;
+}
+
+/* Optional: Add a subtle minimalist dash indicator instead of a bulky bullet */
+main #featured-projects + ul li::before {
+    content: "— ";
+    color: var(--text-muted);
+    margin-right: 0.5rem;
+}

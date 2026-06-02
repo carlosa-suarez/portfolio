@@ -9,24 +9,21 @@ Hi, I’m Carlos — a Python-AI developer and full-stack engineer with 18+ year
 
 ---
 
-## Core Services
+## Core Services {#services}
 
 ### 🧠 Smart Systems & Automation
-*   **Python AI & ML:** Custom integrations with LLMs (Gemini, OpenAI), vector stores (Chroma), and intelligent agent architectures.
-*   **Automation:** Advanced web scrapers, data processing pipelines, and filesystem automation scripts.
+* **Python AI & ML:** Custom integrations with LLMs (Gemini, OpenAI), vector stores (Chroma), and intelligent agent architectures.
+* **Automation:** Advanced web scrapers, data processing pipelines, and filesystem automation scripts.
 
 ### 🌐 Spatial & Full-Stack Web Applications
-*   **Geospatial (GIS):** Spatial database management, boundary detection, and interactive mapping.
-*   **Frontend Mastery:** High-performance, reactive UIs built with Angular, React, TypeScript, and RxJS.
-*   **Robust Backends:** Scalable, secure RESTful APIs designed using Django, FastApi, .NET Core, and Java.
+* **Geospatial (GIS):** Spatial database management, boundary detection, and interactive mapping.
+* **Frontend Mastery:** High-performance, reactive UIs built with Angular, React, TypeScript, and RxJS.
+* **Robust Backends:** Scalable, secure RESTful APIs designed using Django, FastApi, .NET Core, and Java.
 
 ---
 
-## Featured Projects
+## Featured Projects {#projects}
 
-*   **[Geospatial Analytics Pipeline](https://github.com/carlosa-suarez/gis-jupyter)**  
-    Leveraging `GeoPandas` and Jupyter to handle complex GIS operations, boundary detection, and spatial reference transformations.
-*   **[Sandra: PDF Scraper & Document Processor](https://github.com/carlosa-suarez/sandra)**  
-    A Django-based application that ingests PDFs, parses complex data, stores structured records in SQLite, and exports clean CSVs.
-*   **[FHIR Health Standard Integration](https://github.com/carlosa-suarez/fhir-data)**  
-    A specialized implementation for handling clinical patient data safely while adhering to healthcare privacy regulations.
+* **[Geospatial Analytics Pipeline](https://github.com/carlosa-suarez/gis-jupyter)** Leveraging `GeoPandas` and Jupyter to handle complex GIS operations, boundary detection, and spatial reference transformations.
+* **[Sandra: PDF Scraper & Document Processor](https://github.com/carlosa-suarez/sandra)** A Django-based application that ingests PDFs, parses complex data, stores structured records in SQLite, and exports clean CSVs.
+* **[FHIR Health Standard Integration](https://github.com/carlosa-suarez/fhir-data)** A specialized implementation for handling clinical patient data safely while adhering to healthcare privacy regulations.
