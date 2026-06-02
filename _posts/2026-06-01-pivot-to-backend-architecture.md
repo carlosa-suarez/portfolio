@@ -4,7 +4,7 @@ title: "Case Study: Rapid Technical Pivot to Enterprise Backend Architecture"
 category: architecture
 ---
 
-![Engineering Team](assets/images/case-study.webp)
+![Engineering Team](assets/images/photos/case-study.webp)
 
 ## Executive Summary
 When a major web project unexpectedly halted due to market shifts, I led a proactive personal pivot from frontend leadership into enterprise C# backend development to preserve operational velocity during a critical corporate restructuring.

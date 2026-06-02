@@ -4,7 +4,7 @@ title: "Case Study: Optimizing High-Volume GIS & Geospatial Data Pipelines"
 category: geospatial
 ---
 
-![Geospatial Data Analytics](assets/images/gis-pipeline.webp)
+![Geospatial Data Analytics](assets/images/photos/gis-pipeline.webp)
 
 ## Executive Summary
 Engineered and automated highly scalable geospatial data pipelines to ingest, transform, and analyze massive spatial datasets. By replacing manual workflows with optimized Python scripts and spatial database configurations, manual processing time was eliminated, and spatial querying efficiency was dramatically increased.

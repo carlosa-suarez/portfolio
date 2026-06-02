@@ -5,7 +5,7 @@ title: Who I Am
 
 # Beyond the Code
 
-![Carlos Suarez](assets/images/profile-2.webp)
+![Carlos Suarez](assets/images/photos/profile-2.webp)
 
 ### 🌍 Roots & Global Communication
 Originally from Colombia, my life has been shaped by a unique blend of Afro-Caribbean vibrancy, Arabic heritage, and Hispanic/Indigenous roots. Growing up across diverse landscapes—from the high-altitude energy of Bogotá to the serene rhythm of the Caribbean coast—gave me an innate ability to connect with people from all walks of life.
