@@ -22,11 +22,12 @@ Hi, I’m Carlos — a Python-AI developer and full-stack engineer with 18+ year
 
 ---
 
+---
 ## Featured Projects {#projects}
 
-* **[Geospatial Analytics Pipeline](https://github.com/carlosa-suarez/gis-jupyter)** Leveraging `GeoPandas` and Jupyter to handle complex GIS operations, boundary detection, and spatial reference transformations.
-* **[Sandra: PDF Scraper & Document Processor](https://github.com/carlosa-suarez/sandra)** A Django-based application that ingests PDFs, parses complex data, stores structured records in SQLite, and exports clean CSVs.
-* **[FHIR Health Standard Integration](https://github.com/carlosa-suarez/fhir-data)** A specialized implementation for handling clinical patient data safely while adhering to healthcare privacy regulations.
+{% for post in site.posts %}
+* **[{{ post.title }}]({{ post.url | relative_url }})** *{{ post.date | date: "%B %Y" }}* — {{ post.description | default: "Technical case study outlining architecture and engineering outcomes." }}
+{% endfor %}
 
 ---
 

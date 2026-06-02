@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Case Study: Rapid Technical Pivot to Enterprise Backend Architecture"
 category: architecture
 ---

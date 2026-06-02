@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Case Study: Optimizing High-Volume GIS & Geospatial Data Pipelines"
 category: geospatial
 ---
