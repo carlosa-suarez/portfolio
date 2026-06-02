@@ -26,7 +26,7 @@ Hi, I’m Carlos — a Senior Python AI/ML Engineer and Full-Stack Developer wit
 ## Featured Case Studies {#projects}
 
 {% for post in site.posts %}
-* **[{{ post.title }}]({{ post.url | relative_url })}\*** *{{ post.date | date: "%B %Y" }}* — {{ post.description | default: "Technical analysis outlining AI integration, data architecture engineering, and performance outcomes." }}
+* **[{{ post.title }}]({{ post.url | relative_url }})** *{{ post.date | date: "%B %Y" }}* — {{ post.description | default: "Technical analysis outlining AI integration, data architecture engineering, and performance outcomes." }}
 {% endfor %}
 
 ---
