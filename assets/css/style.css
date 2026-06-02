@@ -336,3 +336,22 @@ main #featured-projects + ul li::before {
     color: var(--text-muted);
     margin-right: 0.5rem;
 }
+
+/* ==========================================================================
+   8. PROFILE PICTURE & BIO LAYOUT
+   ========================================================================== */
+.profile-picture {
+    max-width: 280px;
+    border-radius: 4px; /* Slight rounding for a clean look */
+    margin-bottom: 2rem;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    /* Optional: Makes text wrap nicely around the photo on desktop */
+    .profile-picture {
+        float: left;
+        margin-right: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
