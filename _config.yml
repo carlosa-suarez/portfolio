@@ -2,7 +2,7 @@
 title: "Carlos Suarez | Portfolio"
 description: "Professional Portfolio of Carlos Suarez - Python AI & Full-Stack Engineer"
 url: "https://carlosa-suarez.github.io"
-baseurl: "/portfolio-v2"
+baseurl: "/portfolio"
 
 # Build Settings
 markdown: kramdown
