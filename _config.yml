@@ -1,8 +1,8 @@
 # Site Settings
 title: "Carlos Suarez | Portfolio"
 description: "Professional Portfolio of Carlos Suarez - Python AI & Full-Stack Engineer"
-url: "https://yourusername.github.io" # Replace with your actual GitHub username
-baseurl: "" # Leave empty if this repository is named yourusername.github.io
+url: "https://carlosa-suarez.github.io"
+baseurl: "/portfolio-v2"
 
 # Build Settings
 markdown: kramdown
