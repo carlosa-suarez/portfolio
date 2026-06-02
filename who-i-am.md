@@ -5,7 +5,11 @@ title: Who I Am
 
 # Beyond the Code
 
-![Carlos Suarez](assets/images/photos/profile-2.webp)
+<img src="assets/images/photos/profile-2.webp" alt="Carlos Suarez" class="profile-picture">
+I am a senior engineer who thrives at the intersection of spatial data, robust backends, and responsive frontend architectures. 
+
+### What I Do
+When I'm not writing automation workflows, tweaking GIS pipelines, or building machine learning infrastructures, you can usually find me working on automotive DIY projects or tending to my vegetable garden.
 
 ### 🌍 Roots & Global Communication
 Originally from Colombia, my life has been shaped by a unique blend of Afro-Caribbean vibrancy, Arabic heritage, and Hispanic/Indigenous roots. Growing up across diverse landscapes—from the high-altitude energy of Bogotá to the serene rhythm of the Caribbean coast—gave me an innate ability to connect with people from all walks of life.
