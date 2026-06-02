@@ -1,0 +1,316 @@
+/* ==========================================================================
+   1. VARIABLES & CORE SETTINGS
+   ========================================================================== */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #111111;
+    --text-muted: #666666;
+    --border-color: #e5e5e5;
+    --border-focus: #111111;
+    --card-bg: #fafafa;
+    --transition-smooth: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    --font-heading: 'Kanit', sans-serif;
+    --font-body: 'Ubuntu', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-body);
+    line-height: 1.6;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    flex: 1;
+}
+
+/* ==========================================================================
+   2. TYPOGRAPHY & HEADINGS
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+h1 { font-size: 2.75rem; font-weight: 800; }
+h2 { font-size: 1.75rem; border-bottom: 2px solid var(--text-color); padding-bottom: 0.5rem; margin-top: 4rem; }
+h4 { font-size: 1.15rem; letter-spacing: 0.05em; }
+
+p { margin-bottom: 1.25rem; color: var(--text-color); font-weight: 300; }
+ul { list-style: none; }
+
+/* ==========================================================================
+   3. NAVIGATION & HEADER
+   ========================================================================== */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#casm-logo {
+    height: 32px;
+    filter: grayscale(100%) invert(0%);
+    transition: var(--transition-smooth);
+}
+
+#casm-logo:hover {
+    transform: scale(1.05);
+}
+
+.nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    position: relative;
+    transition: var(--transition-smooth);
+}
+
+/* Subtle link underline interaction */
+.nav a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: -4px;
+    left: 0;
+    background-color: var(--text-color);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav a:hover {
+    color: var(--text-color);
+}
+
+.nav a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+/* ==========================================================================
+   4. SECTIONS & LAYOUT COMPONENTS
+   ========================================================================== */
+.hero {
+    padding: 6rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hero h1 {
+    max-width: 800px;
+}
+
+.profile-picture, .hero img {
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    border: 1px solid var(--border-color);
+    transition: var(--transition-smooth);
+}
+
+.profile-picture:hover, .hero img:hover {
+    filter: grayscale(0%);
+    border-color: var(--border-focus);
+}
+
+/* Services Block */
+.services > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.service {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 2.5rem;
+    transition: var(--transition-smooth);
+}
+
+.service:hover {
+    border-color: var(--border-focus);
+    background: var(--bg-color);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+}
+
+.service .material-symbols-outlined {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.service-description ul {
+    margin-top: 1rem;
+}
+
+.service-description li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+}
+
+.service-description img {
+    width: 16px;
+    height: 16px;
+    filter: grayscale(100%);
+}
+
+/* Cards (Experience & Education) */
+#experience ul, #education ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    transition: var(--transition-smooth);
+}
+
+.card:hover {
+    background: var(--card-bg);
+    padding-left: 2rem;
+}
+
+.card img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    filter: grayscale(100%);
+    transition: var(--transition-smooth);
+}
+
+.card:hover img {
+    filter: grayscale(0%);
+}
+
+.card h6 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+    text-transform: none;
+}
+
+.card span {
+    margin-left: auto;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-family: var(--font-heading);
+}
+
+/* ==========================================================================
+   5. FOOTER
+   ========================================================================== */
+footer {
+    margin-top: 8rem;
+    border-top: 1px solid var(--border-color);
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer h2 {
+    margin: 0;
+    font-size: 1rem;
+    border: none;
+    padding: 0;
+}
+
+.links ul {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.links a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: var(--transition-smooth);
+}
+
+.links a:hover {
+    color: var(--text-muted);
+    transform: scale(1.1);
+}
+
+/* ==========================================================================
+   6. RESPONSIVE DESIGN
+   ========================================================================== */
+@media (max-width: 768px) {
+    h1 { font-size: 2rem; }
+    header { padding: 1.5rem 2rem; }
+    .mobile-menu { display: block; }
+    .nav ul {
+        display: none; /* Handled via JS toggle */
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: var(--bg-color);
+        padding: 2rem;
+        border-bottom: 1px solid var(--border-color);
+        z-index: 100;
+    }
+    .nav.active ul { display: flex; }
+    .card { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+    .card span { margin-left: 0; }
+    footer { flex-direction: column; gap: 2rem; text-align: center; }
+}

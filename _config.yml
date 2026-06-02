@@ -1,0 +1,22 @@
+# Site Settings
+title: "Carlos Suarez | Portfolio"
+description: "Professional Portfolio of Carlos Suarez - Python AI & Full-Stack Engineer"
+url: "https://yourusername.github.io" # Replace with your actual GitHub username
+baseurl: "" # Leave empty if this repository is named yourusername.github.io
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+theme: jekyll-theme-primer # A clean, default Jekyll theme supported natively by GitHub Pages
+
+# Folder Exclusions
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - .jekyll-cache/
+  - .github/
+
+# Collections / Permalinks for Case Studies
+permalinks: /:categories/:title.html
