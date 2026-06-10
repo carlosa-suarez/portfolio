@@ -31,6 +31,7 @@ To balance bleeding-edge AI execution speed with corporate stability, I designed
 * **The Ingestion & Concurrency Gateway:** A high-throughput, multi-threaded **Java 8 REST API** service acts as the initial payload receiver. Java manages asynchronous request tracking, authentication, and secure file staging without bottlenecking user responsiveness.
 * **The AI Execution Core:** Heavy data-science lifting, spatial matching, and LLM processing are offloaded asynchronously to isolated **Python** microservices running **Pandas, Geopandas, and LangChain**. 
 
+```mermaid
 graph LR
     classDef react fill:#0f172a,stroke:#06b6d4,stroke-width:2px,color:#fff;
     classDef java fill:#1e293b,stroke:#3b82f6,stroke-width:2px,color:#fff;
@@ -44,6 +45,7 @@ graph LR
     D -->|5. Structured Context Save| E[(MongoDB / PostGIS Database)]:::db
     E -->|6. Sync Audit Streams| B
     B -->|7. Real-Time Data Push| A
+```
 
 ---
 
@@ -63,6 +65,7 @@ The pipeline models an asynchronous team of independent agents modifying a share
 
 *Self-Healing Loop:* If the Coordinator Agent discovers a structural data conflict or validation schema error, LangGraph natively routes execution cycles *back* to the offending worker agent with a precise error context trace for immediate correction.
 
+```mermaid
 graph TD
     classDef state fill:#0f172a,stroke:#334155,stroke-width:2px,color:#fff;
     classDef agent fill:#111827,stroke:#06b6d4,stroke-width:2px,color:#fff;
@@ -90,7 +93,7 @@ graph TD
     
     Eval -->|Validation Passed| EndState[Commit Verified Structured Ingestion]:::state
     EndState --> Done([Publish to Dashboard & GIS Canvas])
-
+```
 ---
 
 ### 4. Full-Stack Human-in-the-Loop Controls
