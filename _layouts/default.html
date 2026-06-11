@@ -67,6 +67,14 @@
         import {styles as typescaleStyles} from '@material/web/typography/md-typescale-styles.js';
         document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
     </script>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ 
+            startOnLoad: true, 
+            theme: 'dark',
+            securityLevel: 'loose'
+        });
+    </script>
     <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
 </body>
 </html>
