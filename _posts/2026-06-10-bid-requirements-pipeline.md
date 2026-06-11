@@ -11,7 +11,7 @@ description: "Architecting a Multi-Format RAG & Stateful Multi-Agent System for 
 ## Architecting a Multi-Format RAG & Stateful Multi-Agent System for Enterprise Ingestion
 
 * **Role:** Senior Systems Engineer & AI/ML Developer  
-* **Timeline:** 6 Months (December 2024 – May 2026)  
+* **Timeline:** 6 Months (December 2025 – May 2026)  
 * **Core Stack:** Python (Pandas, Scikit-Learn), LangChain, LangGraph, OpenAI APIs, Java 8 (Multi-threaded REST Services), React, TypeScript, PostGIS, MongoDB Atlas.
 
 ---
