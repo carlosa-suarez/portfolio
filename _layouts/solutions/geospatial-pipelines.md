@@ -2,6 +2,7 @@
 layout: default
 title: High-Volume GIS & Geospatial Data Engineering | CASM
 description: Optimize, automate, and scale mission-critical spatial data processing layers to eliminate computing bottlenecks.
+permalink: /solutions/geospatial-pipelines/
 ---
 
 <!-- Enterprise Solution Layout -->

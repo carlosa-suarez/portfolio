@@ -2,6 +2,7 @@
 layout: default
 title: Spatial ML & Automated Land Valuation Engines | CASM
 description: Isolate pure geographic land value premiums and accelerate land market intelligence using custom SVR architectures.
+permalink: /solutions/geospatial-valuation/
 ---
 
 <!-- Enterprise Solution Layout -->

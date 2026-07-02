@@ -2,6 +2,7 @@
 layout: default
 title: Autonomous RFP & Bid Requirements Pipeline | CASM
 description: Accelerate bid velocity by 300% and eliminate manual compliance oversight using Agentic AI frameworks.
+permalink: /solutions/bid-requirements/
 ---
 
 <!-- Drop the custom HTML block from our previous step directly here -->
