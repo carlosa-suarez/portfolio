@@ -24,14 +24,14 @@ Hi, I’m Carlos — a Senior Python AI/ML Engineer and Full-Stack Developer wit
 ---
 
 <!-- Enterprise Solutions Directory Section -->
-<section id="enterprise-solutions" style="max-width: 1100px; margin: 4rem auto; padding: 2rem 1rem; font-family: sans-serif;">
+<section id="enterprise-solutions" style="max-width: 1100px; margin: 4rem auto; padding: 2rem 1rem; font-family: 'Ubuntu', 'Kanit', sans-serif;">
     
     <!-- Section Title -->
     <div style="text-align: center; margin-bottom: 3.5rem;">
-        <span style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1.5px; color: #666; font-weight: bold; display: block; margin-bottom: 0.5rem;">Core Capabilities</span>
-        <h2 style="font-size: 2.25rem; color: #111; font-weight: 800; margin: 0; line-height: 1.2;">Production-Grade AI & Spatial Solutions</h2>
-        <p style="font-size: 1.1rem; color: #555; max-width: 650px; margin: 0.75rem auto 0 auto; line-height: 1.5;">
-            We engineer high-throughput automated workflows, intelligent agentic networks, and spatial data architectures designed to remove critical operational friction.
+        <span style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1.5px; color: #888; font-weight: bold; display: block; margin-bottom: 0.5rem;">Core Capabilities</span>
+        <h2 style="font-size: 2.25rem; font-weight: 800; margin: 0; line-height: 1.2; font-family: 'Kanit', sans-serif;">Production-Grade AI & Spatial Solutions</h2>
+        <p style="font-size: 1.1rem; color: #a0a0a0; max-width: 650px; margin: 0.75rem auto 0 auto; line-height: 1.5;">
+            High-throughput automated workflows, intelligent agentic networks, and spatial data architectures built to eliminate critical operational bottlenecks.
         </p>
     </div>
 
@@ -39,43 +39,49 @@ Hi, I’m Carlos — a Senior Python AI/ML Engineer and Full-Stack Developer wit
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
         
         <!-- Package 1: RFP Pipeline -->
-        <article style="background: #fff; border: 1px solid #eaeaea; border-radius: 8px; padding: 2rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 2px 4px rgba(0,0,0,0.02); transition: transform 0.2s, box-shadow 0.2s;">
+        <article style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 2rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.2s, border-color 0.2s;">
             <div>
-                <div style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #666; font-weight: 700; margin-bottom: 0.75rem;">Intelligent Systems</div>
-                <h3 style="font-size: 1.35rem; color: #111; font-weight: 700; margin: 0 0 1rem 0; line-height: 1.3;">Autonomous RFP & Bid Ingestion</h3>
-                <p style="font-size: 0.95rem; color: #555; margin: 0 0 1.5rem 0; line-height: 1.6;">
+                <div style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #888; font-weight: 700; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <span class="material-symbols-outlined" style="font-size: 1.1rem; vertical-align: middle;">neurology</span> Intelligent Systems
+                </div>
+                <h3 style="font-size: 1.35rem; font-weight: 700; margin: 0 0 1rem 0; line-height: 1.3; font-family: 'Kanit', sans-serif;">Autonomous RFP & Bid Ingestion</h3>
+                <p style="font-size: 0.95rem; color: #ccc; margin: 0 0 1.5rem 0; line-height: 1.6;">
                     Multi-Format RAG & stateful multi-agent systems designed to process complex tender files, audit contractual compliance, and map requirement metrics in under 5 minutes.
                 </p>
             </div>
-            <a href="{{ '/solutions/bid-requirements' | relative_url }}" style="display: inline-block; text-align: center; background: #111; color: #fff; text-decoration: none; padding: 0.75rem 1.2rem; font-size: 0.9rem; font-weight: 600; border-radius: 4px; transition: background 0.2s;">
+            <a href="{{ '/solutions/bid-requirements/' | relative_url }}" style="display: inline-block; text-align: center; background: #fff; color: #000; text-decoration: none; padding: 0.75rem 1.2rem; font-size: 0.9rem; font-weight: 600; border-radius: 4px; transition: opacity 0.2s;">
                 View Solution Framework →
             </a>
         </article>
 
         <!-- Package 2: Spatial ML Valuation -->
-        <article style="background: #fff; border: 1px solid #eaeaea; border-radius: 8px; padding: 2rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 2px 4px rgba(0,0,0,0.02); transition: transform 0.2s, box-shadow 0.2s;">
+        <article style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 2rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.2s, border-color 0.2s;">
             <div>
-                <div style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #666; font-weight: 700; margin-bottom: 0.75rem;">Spatial Intelligence</div>
-                <h3 style="font-size: 1.35rem; color: #111; font-weight: 700; margin: 0 0 1rem 0; line-height: 1.3;">Geospatial Land Valuation Engines</h3>
-                <p style="font-size: 0.95rem; color: #555; margin: 0 0 1.5rem 0; line-height: 1.6;">
+                <div style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #888; font-weight: 700; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <span class="material-symbols-outlined" style="font-size: 1.1rem; vertical-align: middle;">map</span> Spatial Intelligence
+                </div>
+                <h3 style="font-size: 1.35rem; font-weight: 700; margin: 0 0 1rem 0; line-height: 1.3; font-family: 'Kanit', sans-serif;">Geospatial Land Valuation Engines</h3>
+                <p style="font-size: 0.95rem; color: #ccc; margin: 0 0 1.5rem 0; line-height: 1.6;">
                     Isolating granular geographic land value premiums using advanced Support Vector Regression (SVR) and structured PostGIS layers to accelerate underwriting accuracy.
                 </p>
             </div>
-            <a href="{{ '/solutions/geospatial-valuation' | relative_url }}" style="display: inline-block; text-align: center; background: #111; color: #fff; text-decoration: none; padding: 0.75rem 1.2rem; font-size: 0.9rem; font-weight: 600; border-radius: 4px; transition: background 0.2s;">
+            <a href="{{ '/solutions/geospatial-valuation/' | relative_url }}" style="display: inline-block; text-align: center; background: #fff; color: #000; text-decoration: none; padding: 0.75rem 1.2rem; font-size: 0.9rem; font-weight: 600; border-radius: 4px; transition: opacity 0.2s;">
                 View Solution Framework →
             </a>
         </article>
 
         <!-- Package 3: High Volume GIS Pipelines -->
-        <article style="background: #fff; border: 1px solid #eaeaea; border-radius: 8px; padding: 2rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 2px 4px rgba(0,0,0,0.02); transition: transform 0.2s, box-shadow 0.2s;">
+        <article style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 2rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.2s, border-color 0.2s;">
             <div>
-                <div style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #666; font-weight: 700; margin-bottom: 0.75rem;">Data Engineering</div>
-                <h3 style="font-size: 1.35rem; color: #111; font-weight: 700; margin: 0 0 1rem 0; line-height: 1.3;">High-Volume GIS Pipeline Tuning</h3>
-                <p style="font-size: 0.95rem; color: #555; margin: 0 0 1.5rem 0; line-height: 1.6;">
+                <div style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #888; font-weight: 700; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <span class="material-symbols-outlined" style="font-size: 1.1rem; vertical-align: middle;">database</span> Data Engineering
+                </div>
+                <h3 style="font-size: 1.35rem; font-weight: 700; margin: 0 0 1rem 0; line-height: 1.3; font-family: 'Kanit', sans-serif;">High-Volume GIS Pipeline Tuning</h3>
+                <p style="font-size: 0.95rem; color: #ccc; margin: 0 0 1.5rem 0; line-height: 1.6;">
                     Refactoring bottlenecked database layers into highly scalable, parallelized spatial ETL processing streams. Drops cloud compute costs and latency significantly.
                 </p>
             </div>
-            <a href="{{ '/solutions/geospatial-pipelines' | relative_url }}" style="display: inline-block; text-align: center; background: #111; color: #fff; text-decoration: none; padding: 0.75rem 1.2rem; font-size: 0.9rem; font-weight: 600; border-radius: 4px; transition: background 0.2s;">
+            <a href="{{ '/solutions/geospatial-pipelines/' | relative_url }}" style="display: inline-block; text-align: center; background: #fff; color: #000; text-decoration: none; padding: 0.75rem 1.2rem; font-size: 0.9rem; font-weight: 600; border-radius: 4px; transition: opacity 0.2s;">
                 View Solution Framework →
             </a>
         </article>

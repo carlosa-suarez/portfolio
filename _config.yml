@@ -7,7 +7,7 @@ baseurl: "/portfolio"
 # Build Settings
 markdown: kramdown
 highlighter: rouge
-theme: jekyll-theme-primer # A clean, default Jekyll theme supported natively by GitHub Pages
+# theme: jekyll-theme-primer # A clean, default Jekyll theme supported natively by GitHub Pages
 
 # Folder Exclusions
 exclude:
