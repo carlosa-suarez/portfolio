@@ -134,3 +134,37 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# --- Jekyll Defaults ---
+# Ignore the local site build folder (Jekyll compilation output)
+_site/
+
+# Ignore metadata files generated during incremental builds
+.jekyll-metadata
+.jekyll-cache/
+
+# --- Ruby & Bundler (Local Environments) ---
+# Ignore local gem installations and bundler configurations
+.bundle/
+vendor/
+.sass-cache/
+.bundle.est/
+
+# --- Operating System Artifacts ---
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS system files (if you ever collaborate or switch OS)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- IDEs and Editors ---
+# VS Code configuration folders (optional: keep if you want shared tasks, but usually ignored)
+.vscode/
+*.code-workspace
+
+# --- Node/Frontend dependencies (if applicable) ---
+node_modules/

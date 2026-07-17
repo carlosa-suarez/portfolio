@@ -38,11 +38,18 @@ permalink: /solutions/geospatial-valuation/
                 We build and integrate specialized geospatial data pipelines that extract, transform, and model location intelligence at scale. By combining robust spatial data layers (PostGIS, GeoPandas) with fine-tuned Support Vector Regression (SVR) frameworks, we isolate true land surface valuation premiums with mathematical precision.
             </p>
 
-            <!-- Visual Flow Diagram Placeholder -->
-            <div style="background-color: #f9f9f9; border-left: 4px solid #111; padding: 1.25rem; margin-bottom: 1.5rem; border-radius: 0 4px 4px 0;">
-                <p style="margin: 0; font-family: monospace; font-size: 0.9rem; color: #222; text-align: center; font-weight: bold;">
-                    [Raw Spatial & Municipal Feeds] ➔ [PostGIS Vector Pipeline] ➔ [SVR Valuation Engine] ➔ [Granular Surface Value Map]
-                </p>
+            <!-- Dynamic Mermaid Architecture Diagram Container -->
+            <div style="background-color: #1a1a1a; padding: 2rem 1.5rem; margin-bottom: 2.5rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+                <div class="mermaid" style="display: flex; justify-content: center;">
+                    graph TD
+                        A[Raw Spatial & Municipal Feeds] --> B[PostGIS Vector Pipeline]
+                        B --> C{Spatial Feature Extractor}
+                        C -->|Calculate Proximities| D[Zoning & Transit Proximity Matrices]
+                        C -->|Calculate Slopes| E[DEM Terrain Slopes]
+                        D --> F[Support Vector Regression SVR Engine]
+                        E --> F
+                        F --> G[Granular Surface Valuation Map API]
+                </div>
             </div>
 
             <ul style="padding-left: 1.25rem; margin-bottom: 1rem;">

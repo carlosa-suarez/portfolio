@@ -38,11 +38,18 @@ permalink: /solutions/geospatial-pipelines/
                 We refactor and optimize lagging data architectures into streamlined, production-grade automated assets. By leveraging vector accelerated indexing, parallel processing frameworks, and highly efficient spatial database tuning (PostGIS, Python, robust cloud backends), we remove computational friction entirely.
             </p>
 
-            <!-- Visual Flow Diagram Placeholder -->
-            <div style="background-color: #f9f9f9; border-left: 4px solid #111; padding: 1.25rem; margin-bottom: 1.5rem; border-radius: 0 4px 4px 0;">
-                <p style="margin: 0; font-family: monospace; font-size: 0.9rem; color: #222; text-align: center; font-weight: bold;">
-                    [Massive Spatial Ingestion] ➔ [Parallel Processing / Spatial Index Tuning] ➔ [Optimized GIS Pipelines] ➔ [Real-Time Operational Views]
-                </p>
+            <!-- Dynamic Mermaid Architecture Diagram Container -->
+            <div style="background-color: #1a1a1a; padding: 2rem 1.5rem; margin-bottom: 2.5rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+                <div class="mermaid" style="display: flex; justify-content: center;">
+                    graph TD
+                        A[Raw Geospatial Ingestion] --> B(Automated Event-Driven ETL)
+                        B --> C{Parallel Processing Engine}
+                        C -->|Spatial Query Acceleration| D[Optimized PostGIS / R-Tree Indexing]
+                        C -->|Coordinate Transformations| E[Vector Accelerated Projections]
+                        D --> F[High-Throughput GIS Pipelines]
+                        E --> F
+                        F --> G[Real-Time Dashboards & Operational Views]
+                </div>
             </div>
 
             <ul style="padding-left: 1.25rem; margin-bottom: 1rem;">
