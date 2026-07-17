@@ -168,3 +168,4 @@ Desktop.ini
 
 # --- Node/Frontend dependencies (if applicable) ---
 node_modules/
+_site/solutions/geospatial-pipelines/index.html
